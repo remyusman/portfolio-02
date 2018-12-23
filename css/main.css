@@ -1,0 +1,34 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+body {
+  background-color: #D0CCCA;
+  font-family: "Atlas Grotesk"
+}
+.header {
+  background-color: #D0CCCA;
+  z-index: 99;
+}
+
+/* Text */
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url(/fonts/Atlas Grotesk-Regular.otf);
+}
+
+/* Links */
+a {
+text-decoration: none;
+color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Grids */
+.dual-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
