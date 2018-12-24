@@ -3,14 +3,22 @@
  * ======================================== */
 
 body {
-  background-color: #D0CCCA;
+  background-color: #C1C0C1;
   font-family: "Atlas Grotesk"
 }
 .header {
-  background-color: #D0CCCA;
+  background-color: #C1C0C1;
   z-index: 99;
 }
-
+.img-top {
+  z-index: 90;
+}
+.img-mid {
+  z-index: 50;
+}
+.img-btm {
+  z-index: 0;
+}
 /* Text */
 @font-face {
   font-family: "Atlas Grotesk";
