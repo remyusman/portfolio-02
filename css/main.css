@@ -24,8 +24,23 @@ text-decoration: none;
 color: black;
 }
 a:hover {
-  text-decoration: underline;
-  color: black;
+  text-decoration: none;
+  color: #0005C9;
+}
+a:active {
+  text-decoration: none
+  color: white;
+}
+
+.a2 {
+  color: #0005C9;
+  text-decoration: none;
+}
+.a2:hover {
+  color: white;
+}
+.a2:active {
+  color: white;
 }
 
 /* Grids */
