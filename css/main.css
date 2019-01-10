@@ -3,11 +3,11 @@
  * ======================================== */
 
 body {
-  background-color: #C1C0C1;
+  background-color: #F2F2F2;
   font-family: "Atlas Grotesk"
 }
 .header {
-  background-color: #C1C0C1;
+  background-color: #F2F2F2;
   z-index: 99;
   margin: 0;
 }
