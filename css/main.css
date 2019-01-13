@@ -11,6 +11,9 @@ body {
   z-index: 99;
   margin: 0;
 }
+.bg-ccpl {
+  background-color: #303676;
+}
 
 /* Text */
 @font-face {
