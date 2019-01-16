@@ -62,15 +62,25 @@ a:active {
 }
 
 .a2:hover {
-  color: #d0cccb;
+  color: #969493;
 }
 
 .a2:active {
-  color: #d0cccb;
+  color: #969493;
 }
 
 .active {
   color: #0005C9
+}
+
+.a3 {
+  color: #969493;
+  text-decoration: underline;
+}
+
+.a3:hover {
+  color: #0005C9;
+  text-decoration: none;
 }
 
 /* Color */
@@ -104,9 +114,21 @@ a:active {
   position: absolute;
   height: 100%;
   text-align: center;
-  line-height: 100%;
+  line-height: auto;
   top: 70%;
   bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.undercover-2 {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  line-height: auto;
+  top: 10%;
+  bottom: -50%;
   left: 0;
   right: 0;
   margin: auto;
