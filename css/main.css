@@ -2,13 +2,12 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-body {
+html, body {
   background-color: #F2F2F2;
   font-family: "Atlas Grotesk";
 }
 
 .header {
-  font-family: "Atlas Grotesk";
   background-color: #F2F2F2;
   z-index: 99;
   margin: 0;
