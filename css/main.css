@@ -13,6 +13,9 @@ html, body {
   margin: 0;
 }
 
+.htxt {
+  font-family: "Atlas Grotesk";
+}
 .bg-ccpl {
   background-color: #303676;
 }
