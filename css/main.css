@@ -2,19 +2,15 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-html, body {
+html {
   background-color: #F2F2F2;
-  font-family: "Atlas Grotesk";
+  font-family: "Atlas Grotesk", Helvetica, sans-serif;
 }
 
 .header {
   background-color: #F2F2F2;
   z-index: 99;
   margin: 0;
-}
-
-.htxt {
-  font-family: "Atlas Grotesk";
 }
 .bg-ccpl {
   background-color: #303676;
@@ -40,6 +36,10 @@ html, body {
 }
 
 p {
+  font-family: "Atlas Grotesk", Helvetica, sans-serif;
+}
+
+li {
   font-family: "Atlas Grotesk", Helvetica, sans-serif;
 }
 
