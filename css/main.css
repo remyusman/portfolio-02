@@ -22,13 +22,13 @@ html {
   font-family: "Atlas Grotesk";
   src: url(/fonts/Atlas Grotesk-Regular.otf);
 }
-/*
+
 @font-face {
   font-family: "Atlas Grotesk";
-  src: url(/fonts/Atlas Grotesk-Regular Italic.otf);
+  src: url(/fonts/AtlasGrotesk-RegularItalic.otf.otf);
   font-style: italic;
 }
-*/
+
 @font-face {
   font-family: "Atlas Grotesk";
   src: url(/fonts/Atlas Grotesk-Bold.otf);
