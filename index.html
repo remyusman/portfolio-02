@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This is the actual homepage, once I remove the under construction message page -->
+
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64930302-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-64930302-2');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,12 +35,12 @@
 
   <!-- Header -->
   <div class="w-100 header fixed pb3-ns pt0-ns pt3">
-    <div class="w-90 center flex flex-wrap pv0 ph3 mt4-ns mv2 outline f3-l f4-m f5">
+    <div class="w-90 center flex flex-wrap pv0 ph0 mt4-ns mv2 bb f3-l f4-m f5">
 
       <ul class="list pl0 mv3 w-100">
         <li class="dib ml4-ns ml3 mr0"><a href="index.html" class="active">Projects</a></li>
         <li class="dib ml4-ns ml3 mr0"><a href="about.html" class="black">About</a></li>
-    <!--    <li class="dib ml4-ns ml3 mr0"><a href="etc.html" class="black">Etc.</a></li> -->
+        <li class="dib ml4-ns ml3 mr0"><a href="etc.html" class="black">Etc.</a></li>
         <li class="dib-l dn mr4-ns mr3 relative fr-ns"><a href="index.html" class="black">Remy Usman, Graphic Design</a></li>
         <li class="dn-l dib mr4-ns mr3 relative fr"><a href="index.html" class="black">RU</a></li>
       </ul>
@@ -36,143 +49,92 @@
   </div>
 
   <!-- Project Grid -->
-  <div class="flex flex-wrap w-100">
+  <div class="case">
 
+    <div class="flex flex-wrap w-100-l">
+      <!-- Flex Row One (Thirds) -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt6-ns mt5 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
 
-    <!-- Flex Row One -->
-    <div class="flex flex-row-ns items-end-ns flex-column w-100 mt6-ns mt5 mb0-ns mb3 pt0-ns pt4 ph5-ns ph3">
-
-      <div class="w-40-ns w-100 container" id="containeron">
-        <a href="project-charcoal-sweet.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 off-white h-100 overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">Charcoal Magazine: Sweet</br><br>•</br><br>Issue #02 of Charcoal Magazine.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-sweet.jpg" alt="Charcoal Magazine 02: Sweet" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-
-      <div class="w-60-ns w-100 h-100-ns flex justify-center items-center pl5-ns mt0-ns mt3 container" id="containeron">
-        <a href="project-meme-book.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 ph4 off-white h-100 overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">He Scream At Own Ass</br><br>•</br><br>A book about memes.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-meme2.jpg" alt="Meme Book: He Scream At Own Ass" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-    <!-- Flex Row Two (Thirds) -->
-    <div class="flex flex-row-ns items-end-ns justify-between-ns flex-column w-100 mt5-l mt5-m ph0-ns ph3 mb0-ns mb3">
-
-      <div class="w-30-ns w-100 mb0-ns mb3 flex justify-center items-center h-100-ns container" id="containeron">
-        <a href="project-sankofa.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 ph4 off-white overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">Sankofa</br><br>•</br><br>A catalogue of Afrofuturist aesthetics.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-sankofa.jpg" alt="Meme Book: He Scream At Own Ass" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-      <div class="w-30-ns w-100 h-100-ns mb0-ns mb3 flex justify-center items-center container" id="containeron">
-        <a href="project-50-iterations.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 ph4 off-white overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">50 Poster Iterations</br><br>•</br><br>A collection of poster redesigns.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-50jmb-02.jpg" alt="50 Poster Iterations" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-      <div class="w-30-ns w-100 h-100-ns flex justify-center items-center container" id="containeron">
-        <a href="project-wfat.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 ph4 off-white overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">We Forgot About This</br><br>•</br><br>A group show about graphic design.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-wfat.jpg" alt="We Forgot About This" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-    <!-- Flex Row Three -->
-    <div class="flex flex-row-ns items-center-ns flex-column justify-between-ns w-100 mt5-ns mb0-ns mb3 pr5-ns ph0-ns ph3">
-
-      <div class="w-40-ns w-100 mb0-ns mb3 pl6-l container" id="containeron">
-        <a href="project-charcoal-mirrors.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 ph4 off-white overflow-hidden">
-              <div class="undercover">
-                <p class="black ph4">Charcoal Magazine: Mirrors</br><br>•</br><br>Issue #01 of Charcoal Magazine.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-mirrors.jpg" alt="Charcoal Magazine 01: Mirrors" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-      <div class="w-50-ns w-100 pr6-l pr4-m flex justify-center items-center container" id="containeron">
-        <a href="project-black-cherry.html">
-          <div class="relative">
-            <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 off-white overflow-hidden">
-              <div class="">
-                <p class="black ph4 undercover">Black Cherry</br><br>•</br><br>A discussion on Blaxploitation Film.</p>
-              </div>
-            </div>
-            <div><img src="/images/cover-bc.jpg" alt="Black Cherry: A Discussion on Blaxploitation Film" class="v-mid"></div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-
-    <!-- Flex Row Four/Five -->
-    <div class="flex flex-row-ns items-start-ns flex-column justify-between w-100 mb0 ph0-ns ph3">
-
-      <div class="flex flex-column w-100 ml5-ns">
-
-        <div class="w-100 mv5-ns mb3 container" id="containeron">
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
           <a href="project-ccpl.html">
             <div class="relative">
-              <div id="containeron" class="f4-l f5 pt5-l pt4-m pt3 off-white overflow-hidden">
-                <div>
-                  <p class="black ph4-l ph3 undercover-2">CCPL Logo & Identity</br><br>•</br><br>Rebranding Cobb County Public Libraries.</p>
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">CCPL Logo & Identity</br><br>•</br><br>Rebranding Cobb Co. Public Libraries.</p>
                 </div>
               </div>
-              <div><img src="/images/anim-ccpls.gif" alt="CCPL Rebrand" class="v-mid"></div>
+              <div><img src="/images/anim-ccpls.gif" alt="Animated CCPL Logo" class="v-mid"></div>
             </div>
           </a>
         </div>
 
-        <div class="w-100 mb5-ns mb3 container" id="containeron">
-          <a href="project-kaboom-remix.html">
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-ftd.html">
             <div class="relative">
-              <div id="containeron" class="f4-l f5 pt0 off-white overflow-hidden">
-                <div>
-                  <p class="black ph4-l ph3 undercover-2">Kaboom! Remix </br><br>•</br><br>Animating comicbook onomatopoeia with CSS.</p>
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">BFA Thesis: First to Die</br><br>•</br><br>Designing a book and exhibition to examine the role of race in horror film.</p>
                 </div>
               </div>
-              <div><img src="/images/cover-kaboom.gif" alt="Kaboom!Remix Project" class="v-mid"></div>
+              <div><img src="/images/cover-ftd2.jpg" alt="Horror Trope Doll" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-50-iterations.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">50 Poster Iterations</br><br>•</br><br>A collection of animated poster redesigns.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-50jmb.gif" alt="50 Poster Iterations" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- Flex Row Two -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt5 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-sankofa.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Sankofa</br><br>•</br><br>A catalogue of Afrofuturist aesthetics.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-sankofa.gif" alt="Animated CCPL Logo" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-meme-book.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">He Scream At Own Ass</br><br>•</br><br>A book about memes.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-meme3.jpg" alt="Animated CCPL Logo" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-logofolio.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Logofolio</br><br>•</br><br>A collection of commissioned and conceptual logo designs.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-logofolio.jpg" alt="Animated CCPL Logo" class="v-mid"></div>
             </div>
           </a>
         </div>
@@ -180,24 +142,92 @@
 
       </div>
 
+      <!-- Flex Row Three -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt5 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
 
-      <div class="flex flex-column w-100 ml5-ns mr0">
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-charcoal-sweet.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Charcoal Magazine: Sweet</br><br>•</br><br>Issue #02.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-sweet-03.jpg" alt="Sankofa Cover" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-wfat.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">We Forgot About This</br><br>•</br><br>A group show about graphic design.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-wfat.jpg" alt="WFAT Hanging Poster" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-charcoal-sankofa.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Charcoal Magazine: Sankofa</br><br>•</br><br>Issue #03.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-sankofa-03.jpg" alt="Charcoal Magazine: Sankofa" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Flex Row Two -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt5 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-identity.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Identity Poster</br><br>•</br><br>Visualizing what it means to know yourself in poster form.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-identity.jpg" alt="Sankofa Book" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="project-black-cherry.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Black Cherry</br><br>•</br><br>A discussion on Blaxploitation film.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-bc.jpg" alt="Black Cherry Cover" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+        </div>
+
 
       </div>
-    </div>
 
+
+    </div>
   </div>
 
-  <!-- Grayscale Filter
-<svg xmlns="http://www.w3.org/2000/svg" class="h1">
-  <filter id="grayscale">
-    <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0" />
-  </filter>
-</svg> -->
 
   <!-- Footer -->
   <div class="mt5-ns mb3-ns mr3-ns mt3">
-    <p class="pl5-ns ph3 f6-ns f7">© Remy Usman 2018. All Rights Reserved.
+    <p class="pl5-ns ph3 f6-ns f7">© Remy Usman 2019. All Rights Reserved.
       <p>
   </div>
 

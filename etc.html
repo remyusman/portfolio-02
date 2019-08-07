@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64930302-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-64930302-2');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,13 +24,18 @@
   <!-- Site Styles -->
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
 </head>
 
 <body class="AtlasGrotesk">
 
   <!-- Header -->
-  <div class="w-100 header fixed pb3-ns pt0-ns pt3">
-    <div class="w-90 center flex flex-wrap pv0 ph3 mt4-ns mv2 outline f3-l f4-m f5">
+  <div class="w-100 header fixed pb3-ns pt0-ns pt3 top-0">
+    <div class="w-90 center flex flex-wrap pv0 ph0 mt4-ns mv2 bb f3-l f4-m f5">
 
       <ul class="list pl0 mv3 w-100">
         <li class="dib ml4-ns ml3 mr0"><a href="index.html" class="black">Projects</a></li>
@@ -30,13 +48,67 @@
     </div>
   </div>
 
-    <!-- Blurb -->
-    <div class="w-100 tc pv4-ns">
-    <p class="f3-l f4-m f5 pt6">Etc. — Personal projects and things like that.</p>
+  <!-- Blurb -->
+  <div class="w-100 tc pt3-ns pb0-ns">
+    <p class="f4-ns f5 pt6">Etc. — Older projects, WIPs, and things like that.</p>
+  </div>
+
+
+  <!-- Project Grid -->
+  <div class="case">
+
+    <div class="flex flex-wrap w-100-l">
+      <!-- Flex Row One (Thirds) -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt5-ns mt2 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="etc-40-days.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">40 Days</br><br>•</br><br>Reflecting on days spent with another graphic designer.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-40-days.jpg" alt="Animated CCPL Logo" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="etc-kaboom-remix.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Kaboom! Remix</br><br>•</br><br>Coding and animating comicbook onomatopoeia with CSS.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-kaboom.gif" alt="Horror Trope Doll" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-30-ns w-100 mb0-ns mb3 container">
+          <a href="#">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Screenprinting</br><br>•</br><br>Updating soon.</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-sp.jpg" alt="Horror Trope Doll" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+      </div>
     </div>
   </div>
 
-  <!-- Grid -->
+  <!-- Footer -->
+  <div class="mt5-ns mb3-ns mr3-ns mt3">
+    <p class="pl5-ns ph3 f6-ns f7">© Remy Usman 2018. All Rights Reserved.
+      <p>
+  </div>
 
   <!-- Site JavaScript -->
   <script src="/javascript/toggleClass.js" charset="utf-8"></script>
