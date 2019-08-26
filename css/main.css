@@ -101,6 +101,11 @@ height: 35vh;
 
 }
 
+.containr {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+}
 /* Color */
 
 .off-white {
