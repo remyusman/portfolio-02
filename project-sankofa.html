@@ -16,6 +16,27 @@
   <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 
+  <!-- JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js">
+    // Drop Button
+    function DropDown() {
+      $('.arrow').on('click', function() {
+        $(this).toggleClass('active');
+      });
+    }
+  </script>
+
+  <script>
+    // Toggle Hide
+    function ToggleHide() {
+      var x = document.getElementById("PD");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 
 </head>
 
@@ -26,11 +47,15 @@
     <div class="w-90 center flex flex-wrap pv0 ph0 mt4-ns mv2 bb f3-l f4-m f5">
 
       <ul class="list pl0 mv3 w-100">
-        <li class="dib ml4-ns ml3 mr0"><a href="index.html" class="active">Projects</a></li>
+        <li class="dib ml4-ns ml3 mr0">
+          <button class="dropbtn"><a href="/index.html" style="color:#0005C9;">Projects</a></button>
+        </li>
+          </li>
         <li class="dib ml4-ns ml3 mr0"><a href="about.html" class="black">About</a></li>
-        <li class="dib ml4-ns ml3 mr0"><a href="etc.html" class="black">Etc.</a></li>
+        <!-- <li class="dib ml4-ns ml3 mr0"><a href="etc.html" class="black">Etc.</a></li> -->
         <li class="dib-l dn mr4-ns mr3 relative fr-ns"><a href="index.html" class="black">Remy Usman, Graphic Design</a></li>
         <li class="dn-l dib mr4-ns mr3 relative fr"><a href="index.html" class="black">RU</a></li>
+
       </ul>
 
     </div>
@@ -38,27 +63,27 @@
 
   <!-- Project Description -->
   <div class="w-100 pt6-ns pt5">
-    <div class="mh5-l ml4-m mh3 mh3 mt0 pl5-l pr7-l ph3 lh-copy f5-ns f6 mw8-ns mw7">
+    <div class="mh5-l ml4-m mh3 mh3 mt0 pl5-l pr7-l ph3 lh f5-ns f6 mw8-ns mw7">
 
       <p class="f4-ns f5 pt0-ns pt4">Sankofa: Afrofuturism Catalogue</p>
-
-      <p class="mv0">Through curated imagery and online articles, this 100-page book catalogs the historical and contemporary aesthetics of the Afrofuturism genre. The title itself is an homage to the 1993 Burkinabé film of the same name. With its limited palette, strict grid, and typography reminiscent of the genre-defining face Eurostile, the catalog evokes contemporary science-fiction imagery.</p>
-
-      <p class="f6-ns f7 mt3 mb0 mw6-ns mw5">Scope of work: Print Design</p>
+      <p class="mv0">Through curated imagery and online articles, this 100-page book catalogs the historical and contemporary aesthetics of the Afrofuturism genre. The title itself is an homage to the 1993 Burkinabé film of the same name. With its
+        limited palette, strict grid, and typography reminiscent of the genre-defining typeface Eurostile, the catalogue evokes contemporary science-fiction imagery.</p>
+      <p class="f6-ns f7 mt3 mb0 mw6-ns mw5">Scope of work: Editorial Design</p>
 
       <!-- Nav Buttons -->
       <div class="mt4 mb5-ns mb4 f4-ns f5">
-        <span class="d-ib header pr3"><a href="project-50-iterations.html" class="no-underline black"><<</a></span>
-        <span class="d-ib header pr3"><a href="index.html" class="no-underline black">x</a></span>
-        <span class="d-ib header"><a href="project-meme-book.html" class="no-underline black">>></a></span>
+        <span class="d-ib header pr3"><a href="project-50-iterations.html" class="no-underline black">
+            «</a> </span> <span class="d-ib header pr3"><a href="index.html" class="no-underline black">x</a></span>
+        <span class="d-ib header"><a href="project-isadora.html" class="no-underline black">»</a></span>
       </div>
 
-  </div>
+    </div>
+    </div>
 
   <!-- Images -->
   <div class="mh5-l mh4-m mh3">
     <div class="w-100 mb4-ns mb3"><img src="/images/sankofa-flip-thru.gif" alt="Sankofa Intro Gif"> </div>
-<div class="w-100 mb4-ns mb3"><img src="/images/sankofa-14.jpg" alt="Sankofa Book Spread"> </div>
+    <div class="w-100 mb4-ns mb3"><img src="/images/sankofa-14.jpg" alt="Sankofa Book Spread"> </div>
     <div class="w-100 mb4-ns mb3"><img src="/images/sankofa-03.jpg" alt="Sankofa Book Spread"> </div>
     <div class="w-100 mb4-ns mb3"><img src="/images/sankofa-04.jpg" alt="Sankofa Book Spread"> </div>
     <div class="w-100 mb4-ns mb3"><img src="/images/sankofa-05.jpg" alt="Sankofa Book Spread"> </div>
@@ -70,9 +95,9 @@
 
   <!-- Btm Nav -->
   <div class="header w-100 black h-10 pv1-ns pv4 ph3 tc f4-ns f5">
-    <span class="d-ib header pr3"><a href="project-50-iterations.html" class="no-underline black"><<</a></span>
-    <span class="d-ib header pr3"><a href="index.html" class="no-underline black">x</a></span>
-    <span class="d-ib header"><a href="project-meme-book.html" class="no-underline black">>></a></span>
+    <span class="d-ib header pr3"><a href="project-50-iterations.html" class="no-underline black">
+        «</a> </span> <span class="d-ib header pr3"><a href="index.html" class="no-underline black">x</a></span>
+    <span class="d-ib header"><a href="project-isadora.html" class="no-underline black">»</a></span>
   </div>
 
   <!-- Spacer -->

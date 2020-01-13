@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Show/Hide Categories -->
+  <script>
+    //Show Category
+    function Category() {
+      var x = document.getElementById("Category");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page title -->
+  <title>Remy Usman — Portfolio</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+</head>
+
+<body class="justify-center">
+
+  <!-- Header -->
+  <div class="w-100 header fixed pb3-ns pt0-ns pt3 mt0">
+    <div class="w-90 center flex flex-wrap pv0 ph0 mt4-ns mv2 bb f3-l f4-m f5">
+
+      <ul class="list pl0 mv3 w-100">
+
+        <li class="dib ml4-ns ml3 mr0">
+          <a onclick="Category()" class="pointer tc v-mid center mt5-l mb0-ns mv4">
+
+            <span><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+                <g>
+                  <g>
+                    <polygon points="225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093 		" />
+                  </g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+              </svg></span>
+
+            Projects
+          </a>
+        <li class="dib ml4-ns ml3 mr0"><a href="about.html" class="black">About</a></li>
+        <li class="dib-l dn mr4-ns mr3 relative fr-ns"><a href="index.html" class="black">Remy Usman, Graphic Design</a></li>
+        <li class="dn-l dib mr4-ns mr3 relative fr"><a href="index.html" class="black">RU</a></li>
+
+      </ul>
+    </div>
+
+    <div id="Category">
+      <!-- Categories -->
+      <div class="case relative pt1 tl">
+        <ul class="list pl0 mv2-l mt2-m mb0-m w-100-ns dlist f5-ns f1 ml4-ns ml3">
+
+          <li class="dib-ns db ml4-ns ml3 mr2 mv0-ns mb3 mt0"> <a href="index.html" >All Work</a></li>
+          <li class="dib-ns db mh2 mv0-ns mv3" class="mh2"> <a href="group-print-projects.html">Print</a></li>
+          <li class="dib-ns db mh2 mv0-ns mv3" class="mh2"> <a href="group-digital-projects.html">Digital</a></li>
+          <li class="dib-ns db mh2 mv0-ns mv3" class="mh2"> <a href="group-brand-projects.html">Brand</a></li>
+          <li class="dib-ns db mh2 mv0-ns mv3" class="mh2"> <a href="group-web-projects.html">Web</a></li>
+          <li class="dib-ns db mh2 mv0-ns mv3" class="mh2"> <a href="group-motion-projects.html" style="color: #0005C9; text-decoration: none;">Motion</a></li>
+
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Project Grid -->
+  <div class="case">
+
+    <div class="flex flex-wrap w-100-l pt6-ns pt5">
+      <!-- Flex Row One (Thirds) -->
+      <div class="flex flex-row-ns items-start-ns justify-around-ns flex-column w-100 mt3 mb0-ns mb3 ph0-ns ph3 pt0-ns pt4">
+
+        <div class="w-third-ns w-100 mb3 ph3-ns container">
+          <a href="project-ccpl.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">CCPL Logo & Identity</br><br>•</br><br>Logo Design + Brand Identity</p>
+                </div>
+              </div>
+              <div><img src="images/anim-ccpls.gif" alt="Animated CCPL Logo" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-third-ns w-100  ph3-ns container mb3">
+          <a href="project-prgver.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">PRG / VER Graphics</br><br>•</br><br>Brand Identity + Animation</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-nl01.png" alt="PRG / VER Animations" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-third-ns w-100  ph3-ns container">
+          <a href="project-riseo.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">RISEO Concept Brand</br><br>•</br><br>Brand + Web Design, Animation</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-riseo.jpg" alt="Rise Logo" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+      <!-- Flex Row Two -->
+      <div class="flex flex-row-ns items-start-ns justify-between-ns flex-column w-100 mt3-ns mt0 mb0-ns mb3 mb0-ns mb3 ph0-ns ph3 pt0">
+
+
+
+        <div class="w-third-ns w-100  ph3-ns container mb3">
+          <a href="project-isadora.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">Isadora Concept Website</br><br>•</br><br>Web Design, Animation</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-isadora2.jpg" alt="Isadora Site" class="v-mid"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-third-ns w-100 mb0  ph3-ns container">
+          <a href="project-50-iterations.html">
+            <div class="relative">
+              <div class="f4-l f5 pt5-l pt4-m pt3 ph4 overlay">
+                <div class="caption">
+                  <p class="black mh4">50 Poster Iterations</br><br>•</br><br>Print Design + Animation</p>
+                </div>
+              </div>
+              <div><img src="/images/cover-50it.gif" alt="50 Poster Iterations" class="v-mid db"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="w-third-ns"><!-- Placeholder --></div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="mt5-ns mb3-ns mr3-ns mt3">
+    <p class="pl5-ns ph3 f6-ns f7">© Remy Usman 2019. All Rights Reserved.
+      <p>
+  </div>
+
+
+  <!-- Site JavaScript -->
+  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+  <script src="/javascript/main.js" charset="utf-8"></script>
+</body>
+
+</html>
