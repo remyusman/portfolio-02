@@ -6,16 +6,17 @@ html {
   font-family: "Atlas Grotesk", Helvetica, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 .header {
   background-color: #Ffffff;
   z-index: 99;
   margin: 0;
-}
-
-@media (max-width: 30em) {
-.dlist {
-  height: 100vh;
-}
+  top: 0;
+    left: 0;
+    right: 0;
 }
 
 
