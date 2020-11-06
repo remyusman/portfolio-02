@@ -23,6 +23,45 @@ body {
 .bg-ccpl {
   background-color: #303676;
 }
+/* PDF Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 115px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  padding: 5px 0px 4px 8px;
+  border-radius: 3px;
+  top: -5px;
+right: 50%;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
 
 /* Text */
 @font-face {
@@ -54,6 +93,22 @@ li {
   line-height: 1.6;
 }
 
+.subhead {
+  font-weight: 500;
+  font-variant: small-caps;
+}
+
+p.thick {
+  font-weight:500;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+.block {
+  margin-top: 60px;
+}
 /* Links */
 a {
   text-decoration: none;
